@@ -1,6 +1,6 @@
 version: '3.7'
 services:
-  geth:
+  ganache:
     image: trufflesuite/ganache-cli
     command: ganache-cli -b 30 -p 7545
     ports:
